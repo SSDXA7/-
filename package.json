@@ -1,0 +1,14 @@
+{
+  "name": "solana-webhook-listener",
+  "version": "1.0.0",
+  "description": "Solana链上Webhook监听与TG推送",
+  "main": "webhookServer.js",
+  "scripts": {
+    "start": "node webhookServer.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
