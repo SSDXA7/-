@@ -1,0 +1,28 @@
+{
+  "testEnvironment": "node",
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "!src/**/*.test.js",
+    "!src/server.js"
+  ],
+  "coverageReporters": [
+    "text",
+    "lcov",
+    "html"
+  ],
+  "testMatch": [
+    "**/tests/**/*.test.js",
+    "**/src/**/*.test.js"
+  ],
+  "setupFilesAfterEnv": [
+    "<rootDir>/tests/setup.js"
+  ],
+  "testTimeout": 30000,
+  "verbose": true,
+  "forceExit": true,
+  "clearMocks": true,
+  "resetMocks": true,
+  "restoreMocks": true
+}
